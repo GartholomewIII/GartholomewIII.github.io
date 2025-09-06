@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react-router-dom@6/umd/react-router-dom.development.js"></script>
+</head>
+<body>
+
+
+
+    <div class="header">
+        <div class="name">
+            <h2>Quinn Olney Portfolio</h2>
+        </div>
+        <div class="links">
+            <a href="index.html">Home</a>
+            <a href="https://www.linkedin.com/in/quinnolney/">Linkedin</a>
+            <a href="https://github.com/GartholomewIII">Github</a>
+            <a href="https://www.instagram.com/garth_____/">Instagram</a>
+            <a href="https://x.com/GigaWttz">X (Twitter)</a>
+            
+        </div>
+
+
+<!--DROPDOWN FOR MOBILE-->        
+
+        <div class="dropdown">
+            <button class="dropbtn">My Links
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+            <a href="index.html">Home</a>
+            <a href="https://www.linkedin.com/in/quinnolney/">Linkedin</a>
+            <a href="https://github.com/GartholomewIII">Github</a>
+            <a href="https://www.instagram.com/garth_____/">Instagram</a>
+            <a href="https://x.com/GigaWttz">X (Twitter)</a>               
+                
+            </div>
+        </div>
+        <div class="fake-box">
+
+        </div>
+    </div>
+
+
+
+
+<div class="main_body">
+    <div class="about-me-parent">
+        <div class="about-me">
+            <div class="headshot">
+                <img class = "about-me-img"src="assets/about-me.jpg">         
+            </div>
+            <div class="details">
+                <div class="about-me-box">
+                    <h3 class="about-me-text">
+                        About me
+                    </h3>
+                </div>
+                <div class="detials-box">
+                    <h1 class="details-txt">
+                        Hello, my name is Quinn. Welcome to my digital portfolio. I made this website with raw css, html and js, no frameworks. In my freetime I enjoy reading, cooking, coding, and videogames (Elden Ring is my favorite). I am proficient in Python but enjoy dipping my toes in C++, Java and Dart. Below you can see some projects I've made or helped with and in each project description I will provide details on what it is and what I learned from it. Thank you
+                    </h1>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    
+
+    <!-- React will render the slider here -->
+    <div id="root"></div>
+</div>
+
+<div class="footer">
+
+</div>
+
+  <!-- Load your React component (note type="text/babel") -->
+<script type="text/babel" data-presets="env,react" src="interactivity.jsx"></script>
+</body>
+</html>
